@@ -11,15 +11,18 @@ public class Es0_Cicli {
         // La sintassi include l'inizializzazione, la condizione e l'incremento
         // Uso l'operatore % per verificare se il numero è pari
         for (int i = 0; i < 20; i++) {
-            if ( i % 2 == 0) {
-              System.out.println(i + " "); //PrintLN Stampa un valore sotto l'altro   
+            if (i % 2 == 0) {
+                System.out.println(i + " "); //PrintLN Stampa un valore sotto l'altro   
             }
         }
 
-        for (int i = 0; i < 5; i++) {
-            System.out.print(i + " ");   //Print Stampa sulla stessa linea
+        // Uso l'operatore % per verificare se il numero è dispari
+        for (int i = 0; i < 20; i++) {
+            if (i % 2 == 1) {
+                System.out.print(i + " ");   //Print Stampa sulla stessa linea
+            }
         }
-        
+
         System.out.println("");
 
         // Ciclo FOREACH
@@ -36,14 +39,14 @@ public class Es0_Cicli {
             System.out.println(j + " ");
             j++;
         }
-        
+
         // Ciclo DO-WHILE
         // Simile al WHILE ma esegue un blocco di codice almeno una volta per poi controllare la condizione
         int k = 50;
         do {
             System.out.println(k + " ");
             k++;
-        } while (k < 50);      
+        } while (k < 50);
 
     }
 
